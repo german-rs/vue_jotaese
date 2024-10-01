@@ -1,29 +1,29 @@
-# Desafío evaluado - Introduccion a Componentes Web y Vue Js
+# Desafío: Introducción a Componentes Web y Vue.js
 
-This template should help get you started developing with Vue 3 in Vite.
+Este proyecto forma parte de un desafío donde se pone a prueba el conocimiento de interpolación de variables en plantillas utilizando Vue.js. El objetivo es crear una aplicación con Vite, siguiendo las mejores prácticas para el desarrollo de componentes en Vue.js.
 
-## Recommended IDE Setup
+## Descripción del Proyecto
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+En este desafío, desarrollamos una aplicación sencilla que utiliza Vue.js para gestionar el estado local y realizar interpolaciones de variables dentro del componente `App`. El proyecto incluye un carnet predefinido en HTML y CSS que será integrado en la aplicación.
 
-## Customize configuration
+![Cedula identidad Elon Musk](../img/cedula-elon.jpg)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Objetivos
 
-## Project Setup
+- Practicar la interpolación de variables con Vue.js.
+- Configurar un proyecto desde cero utilizando Vite.
+- Implementar buenas prácticas en la estructura y organización del código.
 
-```sh
-npm install
-```
+## Estructura del Proyecto
 
-### Compile and Hot-Reload for Development
+- **Vue.js** para la gestión de componentes y la interpolación de variables.
+- **Vite** como herramienta de desarrollo para la construcción y despliegue rápido de la aplicación.
+- **HTML y CSS** proporcionados como base para el carnet visual de la aplicación.
 
-```sh
-npm run dev
-```
 
-### Compile and Minify for Production
+## Tecnologías Utilizadas
 
-```sh
-npm run build
-```
+- Vue.js
+- Vite
+- HTML5
+- CSS3
