@@ -24,7 +24,7 @@ export default {
 </script>
 
 <template>
-<div class="carnet">
+  <div class="carnet">
       <aside>
         <div>
           <span>CEDULA DE INDENTIDAD</span>
@@ -36,7 +36,6 @@ export default {
       </aside>
 
       <main>
-
         <header>
           <p>REPUBLICA DE CHILE</p>
           <span>SERVICIO DE REGISTRO CIVIL E IDENTIFICACIÓN</span>
@@ -94,82 +93,33 @@ export default {
 
         </section>
       </main>
-    </div>
+  </div>
 </template>
 
 <style scoped>
-      body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 60vh;
-        font-size: 10px;
-        font-family: sans-serif;
-      }
+.carnet {
+  width: 490px;
+  height: 270px;
+  background: var(--clr-bg-cedula);
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  padding: 15px;
+  box-shadow: 0px 0px 10px 2px var(--clr-sombra-cedula);
+}
 
-      .carnet {
-        width: 490px;
-        height: 270px;
-        background: #c8deed;
-        border-radius: 20px;
-        display: grid;
-        grid-template-columns: 30% 1fr;
-        padding: 15px;
-        box-shadow: 0px 0px 10px 2px black;
-      }
+aside div {
+  display: flex;
+}
 
-      aside div {
-        display: flex;
-      }
+aside > img {
+  margin-top: 15px;
+  width: 100%;
+}
 
-      aside > img {
-        margin-top: 15px;
-        width: 100%;
-      }
-
-      aside p {
-        text-align: center;
-        font-size: 12px;
-        font-weight: bold;
-      }
-
-      main {
-        padding: 0px 14px;
-      }
-
-      main article {
-        margin: 4px 0px;
-      }
-
-      main article header {
-        font-weight: bold;
-        color: #0235a4;
-        font-size: 8px;
-      }
-
-      main header p {
-        font-size: 20px;
-        margin: 0;
-        font-weight: bold;
-        color: #0235a4;
-      }
-
-      main header span {
-        font-size: 8px;
-        color: #399be1;
-      }
-
-      main section {
-        margin-top: 10px;
-      }
-
-      main section article span {
-        font-size: 13px;
-        font-weight: 600;
-      }
-
-      main section .grid-2-colums {
-        display: grid;
-        grid-template-columns: 50% 50%;
-      }
+aside p {
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+}
 </style>
