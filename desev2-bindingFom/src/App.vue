@@ -18,7 +18,6 @@ export default {
     }
   },
    mounted() {
-    // Inicializar los tooltips de Bootstrap 5.3 manualmente
     const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]');
     const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => {
       return new bootstrap.Tooltip(tooltipTriggerEl);
