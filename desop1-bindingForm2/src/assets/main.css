@@ -1,0 +1,14 @@
+@import './base.css';
+
+.grid-container {
+  margin-top: 2em; 
+}
+
+label, legend{
+    color: var(--clr-blanco-suave);
+    font-size: 1em;
+}
+
+.emoji{
+  font-size: 3em;
+}

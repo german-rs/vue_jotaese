@@ -1,0 +1,17 @@
+:root {
+  --clr-blanco: #ffffff;
+  --clr-blanco-suave: #f8f8f8;
+
+  --clr-negro: #181818;
+  --clr-negro-suave: #222222;
+  --clr-gris: #9ca3af;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-size: 16px;
+}
