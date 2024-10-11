@@ -14,6 +14,8 @@
         </div>
         <h2>{{ nombre }}</h2>
         <p>{{ precio }}</p>
+        <button @click="$emit('eliminarInstrumento')">Eliminar</button>
+        <slot/> <!-- slot da espacio para otros elementos -->
     </div>
 </template>
 

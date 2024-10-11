@@ -55,12 +55,15 @@
     <Header/>
     <Hero/>
     <div class="productos" >
-      <div v-for="instrumento in instrumentos" >
+      <div v-for="(instrumento, indice) in instrumentos" >
         <Instrumento 
           :foto="instrumento.foto"
           :nombre="instrumento.nombre"
           :precio="instrumento.precio"
-        />
+          @eliminarInstrumento="instrumentos.splice(indice, 1)"
+        >
+          <button>Comprar</button>
+        </Instrumento>
       </div>
     </div>
     <Footer/>
